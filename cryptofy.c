@@ -1503,7 +1503,6 @@ static const char __pyx_k_cryptofy[] = "cryptofy";
 static const char __pyx_k_requests[] = "requests";
 static const char __pyx_k_withdraw[] = "withdraw";
 static const char __pyx_k_btn_start[] = "btn-start";
-static const char __pyx_k_Exm_python[] = "Exm: python ";
 static const char __pyx_k_Bot_Running[] = "Bot Running...";
 static const char __pyx_k_cryptofy_py[] = "cryptofy.py";
 static const char __pyx_k_max_workers[] = "max_workers";
@@ -1511,7 +1510,6 @@ static const char __pyx_k_rich_console[] = "rich.console";
 static const char __pyx_k_td_w_td_td_d_d_td[] = "<td>\\w+<\\/td>\n<td>(\\d+\\.\\d+)<\\/td>";
 static const char __pyx_k_ThreadPoolExecutor[] = "ThreadPoolExecutor";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_youremail_gmail_com[] = " youremail@gmail.com";
 static const char __pyx_k_Session_red_expired_red[] = "Session -> [red]expired![/red]";
 static const char __pyx_k_concurrent_futures_thread[] = "concurrent.futures.thread";
 static const char __pyx_k_Success_withdraw_BCH_green[] = "Success withdraw BCH [green]";
@@ -1542,7 +1540,6 @@ static PyObject *__pyx_kp_u_1_97m_1_44m_CRYPTOFY_NOXY_SEC_0;
 static PyObject *__pyx_kp_s_Active_auto_claim_session_until;
 static PyObject *__pyx_kp_s_Bot_Running;
 static PyObject *__pyx_n_s_Console;
-static PyObject *__pyx_kp_u_Exm_python;
 static PyObject *__pyx_kp_u_Please_enter_your_faucet_email;
 static PyObject *__pyx_n_s_Session;
 static PyObject *__pyx_kp_u_Session_red_expired_red;
@@ -1626,7 +1623,6 @@ static PyObject *__pyx_n_s_x3;
 static PyObject *__pyx_n_s_x4;
 static PyObject *__pyx_n_s_x5;
 static PyObject *__pyx_kp_s_xdg_open_https_www_youtube_com_c;
-static PyObject *__pyx_kp_u_youremail_gmail_com;
 static PyObject *__pyx_n_s_zec;
 static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_email); /* proto */
 static PyObject *__pyx_float_1_0;
@@ -1640,7 +1636,6 @@ static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__7;
 static PyObject *__pyx_tuple__8;
 static PyObject *__pyx_tuple__9;
-static PyObject *__pyx_tuple__10;
 static PyObject *__pyx_codeobj__5;
 /* Late includes */
 
@@ -3254,7 +3249,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Active_auto_claim_session_until, __pyx_k_Active_auto_claim_session_until, sizeof(__pyx_k_Active_auto_claim_session_until), 0, 0, 1, 0},
   {&__pyx_kp_s_Bot_Running, __pyx_k_Bot_Running, sizeof(__pyx_k_Bot_Running), 0, 0, 1, 0},
   {&__pyx_n_s_Console, __pyx_k_Console, sizeof(__pyx_k_Console), 0, 0, 1, 1},
-  {&__pyx_kp_u_Exm_python, __pyx_k_Exm_python, sizeof(__pyx_k_Exm_python), 0, 1, 0, 0},
   {&__pyx_kp_u_Please_enter_your_faucet_email, __pyx_k_Please_enter_your_faucet_email, sizeof(__pyx_k_Please_enter_your_faucet_email), 0, 1, 0, 0},
   {&__pyx_n_s_Session, __pyx_k_Session, sizeof(__pyx_k_Session), 0, 0, 1, 1},
   {&__pyx_kp_u_Session_red_expired_red, __pyx_k_Session_red_expired_red, sizeof(__pyx_k_Session_red_expired_red), 0, 1, 0, 0},
@@ -3338,7 +3332,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_x4, __pyx_k_x4, sizeof(__pyx_k_x4), 0, 0, 1, 1},
   {&__pyx_n_s_x5, __pyx_k_x5, sizeof(__pyx_k_x5), 0, 0, 1, 1},
   {&__pyx_kp_s_xdg_open_https_www_youtube_com_c, __pyx_k_xdg_open_https_www_youtube_com_c, sizeof(__pyx_k_xdg_open_https_www_youtube_com_c), 0, 0, 1, 0},
-  {&__pyx_kp_u_youremail_gmail_com, __pyx_k_youremail_gmail_com, sizeof(__pyx_k_youremail_gmail_com), 0, 1, 0, 0},
   {&__pyx_n_s_zec, __pyx_k_zec, sizeof(__pyx_k_zec), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
@@ -3427,16 +3420,6 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__9 = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
-
-  /* "cryptofy.py":88
- *      else:
- *           print(f"Please enter your faucet email!")
- *           time.sleep(1)             # <<<<<<<<<<<<<<
- *           print(f"Exm: python {sys.argv[0]} youremail@gmail.com")
- */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_int_1); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 88, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -3629,7 +3612,6 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_cryptofy(PyObject *__pyx_pyinit_mo
   PyObject *__pyx_t_14 = NULL;
   PyObject *__pyx_t_15 = NULL;
   int __pyx_t_16;
-  Py_UCS4 __pyx_t_17;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -4289,66 +4271,9 @@ if (!__Pyx_RefNanny) {
  * 
  *      else:
  *           print(f"Please enter your faucet email!")             # <<<<<<<<<<<<<<
- *           time.sleep(1)
- *           print(f"Exm: python {sys.argv[0]} youremail@gmail.com")
  */
     /*else*/ {
       if (__Pyx_PrintOne(0, __pyx_kp_u_Please_enter_your_faucet_email) < 0) __PYX_ERR(0, 87, __pyx_L1_error)
-
-      /* "cryptofy.py":88
- *      else:
- *           print(f"Please enter your faucet email!")
- *           time.sleep(1)             # <<<<<<<<<<<<<<
- *           print(f"Exm: python {sys.argv[0]} youremail@gmail.com")
- */
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sleep); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 88, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_14);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-      /* "cryptofy.py":89
- *           print(f"Please enter your faucet email!")
- *           time.sleep(1)
- *           print(f"Exm: python {sys.argv[0]} youremail@gmail.com")             # <<<<<<<<<<<<<<
- */
-      __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_4 = 0;
-      __pyx_t_17 = 127;
-      __Pyx_INCREF(__pyx_kp_u_Exm_python);
-      __pyx_t_4 += 12;
-      __Pyx_GIVEREF(__pyx_kp_u_Exm_python);
-      PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_kp_u_Exm_python);
-      __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_sys); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_argv); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_14 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_14);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_14, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_17 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) > __pyx_t_17) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) : __pyx_t_17;
-      __pyx_t_4 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_6);
-      __Pyx_GIVEREF(__pyx_t_6);
-      PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_6);
-      __pyx_t_6 = 0;
-      __Pyx_INCREF(__pyx_kp_u_youremail_gmail_com);
-      __pyx_t_4 += 20;
-      __Pyx_GIVEREF(__pyx_kp_u_youremail_gmail_com);
-      PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_kp_u_youremail_gmail_com);
-      __pyx_t_6 = __Pyx_PyUnicode_Join(__pyx_t_2, 3, __pyx_t_4, __pyx_t_17); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_6) < 0) __PYX_ERR(0, 89, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
     __pyx_L3:;
 
@@ -4366,10 +4291,10 @@ if (!__Pyx_RefNanny) {
  * import os
  * import sys
  */
-  __pyx_t_6 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_6) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /*--- Wrapped vars code ---*/
 
