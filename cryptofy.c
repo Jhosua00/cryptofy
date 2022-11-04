@@ -1640,11 +1640,7 @@ static PyObject *__pyx_codeobj__5;
 /* Late includes */
 
 /* "cryptofy.py":26
- * 
- * 
- * def main(email):             # <<<<<<<<<<<<<<
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
+ 
  */
 
 /* Python wrapper */
@@ -1686,20 +1682,12 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
   __Pyx_RefNannySetupContext("main", 0);
 
   /* "cryptofy.py":27
- * 
- * def main(email):
- *      while True:             # <<<<<<<<<<<<<<
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
- *           x2 = ses.get("https://cryptofy.club/home.php").text
+ 
  */
   while (1) {
 
     /* "cryptofy.py":28
- * def main(email):
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})             # <<<<<<<<<<<<<<
- *           x2 = ses.get("https://cryptofy.club/home.php").text
- *           time.sleep(60)
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_ses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -1723,11 +1711,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
     __pyx_t_3 = 0;
 
     /* "cryptofy.py":29
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
- *           x2 = ses.get("https://cryptofy.club/home.php").text             # <<<<<<<<<<<<<<
- *           time.sleep(60)
- *           if "Active auto claim session until" in str(x2):
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_ses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -1756,11 +1740,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
     __pyx_t_2 = 0;
 
     /* "cryptofy.py":30
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
- *           x2 = ses.get("https://cryptofy.club/home.php").text
- *           time.sleep(60)             # <<<<<<<<<<<<<<
- *           if "Active auto claim session until" in str(x2):
- *                log.log(f"[white]Session -> [green]Ready[/green][/white]")
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 30, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
@@ -1785,11 +1765,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
     /* "cryptofy.py":31
- *           x2 = ses.get("https://cryptofy.club/home.php").text
- *           time.sleep(60)
- *           if "Active auto claim session until" in str(x2):             # <<<<<<<<<<<<<<
- *                log.log(f"[white]Session -> [green]Ready[/green][/white]")
- *                x3 = ses.get("https://cryptofy.club/home.php?LTC=1&DOGE=1&DGB=1&TRX=1&USDT=1&BCH=1&DASH=1&FEY=1&ZEC=1&SOL=1&redirect=1").text
+ 
  */
     __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_x2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -1799,11 +1775,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
     if (__pyx_t_5) {
 
       /* "cryptofy.py":32
- *           time.sleep(60)
- *           if "Active auto claim session until" in str(x2):
- *                log.log(f"[white]Session -> [green]Ready[/green][/white]")             # <<<<<<<<<<<<<<
- *                x3 = ses.get("https://cryptofy.club/home.php?LTC=1&DOGE=1&DGB=1&TRX=1&USDT=1&BCH=1&DASH=1&FEY=1&ZEC=1&SOL=1&redirect=1").text
- *                x4 = ses.get("https://cryptofy.club/account.php").text
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_log); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -1828,11 +1800,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "cryptofy.py":33
- *           if "Active auto claim session until" in str(x2):
- *                log.log(f"[white]Session -> [green]Ready[/green][/white]")
- *                x3 = ses.get("https://cryptofy.club/home.php?LTC=1&DOGE=1&DGB=1&TRX=1&USDT=1&BCH=1&DASH=1&FEY=1&ZEC=1&SOL=1&redirect=1").text             # <<<<<<<<<<<<<<
- *                x4 = ses.get("https://cryptofy.club/account.php").text
- *                b = re.findall("<td>\w+<\/td>\n<td>(\d+\.\d+)<\/td>",x4)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_ses); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 33, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -1861,11 +1829,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_1 = 0;
 
       /* "cryptofy.py":34
- *                log.log(f"[white]Session -> [green]Ready[/green][/white]")
- *                x3 = ses.get("https://cryptofy.club/home.php?LTC=1&DOGE=1&DGB=1&TRX=1&USDT=1&BCH=1&DASH=1&FEY=1&ZEC=1&SOL=1&redirect=1").text
- *                x4 = ses.get("https://cryptofy.club/account.php").text             # <<<<<<<<<<<<<<
- *                b = re.findall("<td>\w+<\/td>\n<td>(\d+\.\d+)<\/td>",x4)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"ltc":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_ses); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -1894,11 +1858,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_3 = 0;
 
       /* "cryptofy.py":35
- *                x3 = ses.get("https://cryptofy.club/home.php?LTC=1&DOGE=1&DGB=1&TRX=1&USDT=1&BCH=1&DASH=1&FEY=1&ZEC=1&SOL=1&redirect=1").text
- *                x4 = ses.get("https://cryptofy.club/account.php").text
- *                b = re.findall("<td>\w+<\/td>\n<td>(\d+\.\d+)<\/td>",x4)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"ltc":"withdraw"})
- *                log.log(f"Success withdraw LTC [green]{b[0]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_re); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 35, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -1954,11 +1914,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_3 = 0;
 
       /* "cryptofy.py":36
- *                x4 = ses.get("https://cryptofy.club/account.php").text
- *                b = re.findall("<td>\w+<\/td>\n<td>(\d+\.\d+)<\/td>",x4)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"ltc":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw LTC [green]{b[0]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_ses); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 36, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -1980,11 +1936,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_7 = 0;
 
       /* "cryptofy.py":37
- *                b = re.findall("<td>\w+<\/td>\n<td>(\d+\.\d+)<\/td>",x4)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"ltc":"withdraw"})
- *                log.log(f"Success withdraw LTC [green]{b[0]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"doge":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_log); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 37, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2035,11 +1987,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
       /* "cryptofy.py":38
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"ltc":"withdraw"})
- *                log.log(f"Success withdraw LTC [green]{b[0]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"doge":"withdraw"})
- *                log.log(f"Success withdraw DOGE [green]{b[1]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 38, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2064,11 +2012,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
       /* "cryptofy.py":39
- *                log.log(f"Success withdraw LTC [green]{b[0]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"doge":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw DOGE [green]{b[1]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_ses); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 39, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -2090,11 +2034,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_2 = 0;
 
       /* "cryptofy.py":40
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"doge":"withdraw"})
- *                log.log(f"Success withdraw DOGE [green]{b[1]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dgb":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_log); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 40, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -2145,11 +2085,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "cryptofy.py":41
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"doge":"withdraw"})
- *                log.log(f"Success withdraw DOGE [green]{b[1]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dgb":"withdraw"})
- *                log.log(f"Success withdraw DGB [green]{b[2]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_time); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 41, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2174,11 +2110,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "cryptofy.py":42
- *                log.log(f"Success withdraw DOGE [green]{b[1]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dgb":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw DGB [green]{b[2]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_ses); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 42, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2200,11 +2132,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_10 = 0;
 
       /* "cryptofy.py":43
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dgb":"withdraw"})
- *                log.log(f"Success withdraw DGB [green]{b[2]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"trx":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_log); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 43, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2255,11 +2183,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
       /* "cryptofy.py":44
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dgb":"withdraw"})
- *                log.log(f"Success withdraw DGB [green]{b[2]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"trx":"withdraw"})
- *                log.log(f"Success withdraw TRX [green]{b[3]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 44, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -2284,11 +2208,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
       /* "cryptofy.py":45
- *                log.log(f"Success withdraw DGB [green]{b[2]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"trx":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw TRX [green]{b[3]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_ses); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 45, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2310,11 +2230,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_1 = 0;
 
       /* "cryptofy.py":46
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"trx":"withdraw"})
- *                log.log(f"Success withdraw TRX [green]{b[3]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"usdt":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_log); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 46, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2365,11 +2281,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
       /* "cryptofy.py":47
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"trx":"withdraw"})
- *                log.log(f"Success withdraw TRX [green]{b[3]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"usdt":"withdraw"})
- *                log.log(f"Success withdraw USDT [green]{b[4]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2394,11 +2306,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
       /* "cryptofy.py":48
- *                log.log(f"Success withdraw TRX [green]{b[3]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"usdt":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw USDT [green]{b[4]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_ses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 48, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -2420,11 +2328,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_3 = 0;
 
       /* "cryptofy.py":49
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"usdt":"withdraw"})
- *                log.log(f"Success withdraw USDT [green]{b[4]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"bch":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_log); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 49, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -2475,11 +2379,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":50
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"usdt":"withdraw"})
- *                log.log(f"Success withdraw USDT [green]{b[4]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"bch":"withdraw"})
- *                log.log(f"Success withdraw BCH [green]{b[5]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 50, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -2504,11 +2404,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":51
- *                log.log(f"Success withdraw USDT [green]{b[4]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"bch":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw BCH [green]{b[5]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_ses); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 51, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2530,11 +2426,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_7 = 0;
 
       /* "cryptofy.py":52
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"bch":"withdraw"})
- *                log.log(f"Success withdraw BCH [green]{b[5]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dash":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_log); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 52, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2585,11 +2477,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
       /* "cryptofy.py":53
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"bch":"withdraw"})
- *                log.log(f"Success withdraw BCH [green]{b[5]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dash":"withdraw"})
- *                log.log(f"Success withdraw DASH [green]{b[6]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2614,11 +2502,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
       /* "cryptofy.py":54
- *                log.log(f"Success withdraw BCH [green]{b[5]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dash":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw DASH [green]{b[6]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_ses); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 54, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -2640,11 +2524,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_2 = 0;
 
       /* "cryptofy.py":55
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dash":"withdraw"})
- *                log.log(f"Success withdraw DASH [green]{b[6]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"fey":"withdraw"})
+
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_log); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 55, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -2695,11 +2575,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "cryptofy.py":56
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"dash":"withdraw"})
- *                log.log(f"Success withdraw DASH [green]{b[6]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"fey":"withdraw"})
- *                log.log(f"Success withdraw FEY [green]{b[7]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_time); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 56, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2724,11 +2600,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "cryptofy.py":57
- *                log.log(f"Success withdraw DASH [green]{b[6]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"fey":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw FEY [green]{b[7]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_ses); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 57, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2750,11 +2622,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_10 = 0;
 
       /* "cryptofy.py":58
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"fey":"withdraw"})
- *                log.log(f"Success withdraw FEY [green]{b[7]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"zec":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_log); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -2805,11 +2673,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
       /* "cryptofy.py":59
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"fey":"withdraw"})
- *                log.log(f"Success withdraw FEY [green]{b[7]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"zec":"withdraw"})
- *                log.log(f"Success withdraw ZEC [green]{b[8]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -2834,11 +2698,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
       /* "cryptofy.py":60
- *                log.log(f"Success withdraw FEY [green]{b[7]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"zec":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw ZEC [green]{b[8]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_ses); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2860,11 +2720,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_1 = 0;
 
       /* "cryptofy.py":61
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"zec":"withdraw"})
- *                log.log(f"Success withdraw ZEC [green]{b[8]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"sol":"withdraw"})
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_log); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 61, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2915,11 +2771,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
       /* "cryptofy.py":62
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"zec":"withdraw"})
- *                log.log(f"Success withdraw ZEC [green]{b[8]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"sol":"withdraw"})
- *                log.log(f"Success withdraw SOL [green]{b[9]}[/green]")
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 62, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -2944,11 +2796,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
       /* "cryptofy.py":63
- *                log.log(f"Success withdraw ZEC [green]{b[8]}[/green]")
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"sol":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw SOL [green]{b[9]}[/green]")
- *                time.sleep(1.0)
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_ses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -2970,11 +2818,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __pyx_t_3 = 0;
 
       /* "cryptofy.py":64
- *                time.sleep(1.0)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"sol":"withdraw"})
- *                log.log(f"Success withdraw SOL [green]{b[9]}[/green]")             # <<<<<<<<<<<<<<
- *                time.sleep(1.0)
- * 
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_log); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -3025,11 +2869,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":65
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"sol":"withdraw"})
- *                log.log(f"Success withdraw SOL [green]{b[9]}[/green]")
- *                time.sleep(1.0)             # <<<<<<<<<<<<<<
- * 
- * 
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 65, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -3054,21 +2894,13 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":31
- *           x2 = ses.get("https://cryptofy.club/home.php").text
- *           time.sleep(60)
- *           if "Active auto claim session until" in str(x2):             # <<<<<<<<<<<<<<
- *                log.log(f"[white]Session -> [green]Ready[/green][/white]")
- *                x3 = ses.get("https://cryptofy.club/home.php?LTC=1&DOGE=1&DGB=1&TRX=1&USDT=1&BCH=1&DASH=1&FEY=1&ZEC=1&SOL=1&redirect=1").text
+ 
  */
       goto __pyx_L5;
     }
 
     /* "cryptofy.py":69
- * 
- *           else:
- *                log.log(f"Session -> [red]expired![/red]")             # <<<<<<<<<<<<<<
- *                time.sleep(1)
- *                log.log(f"Visit the website https://cryptofy.club")
+ 
  */
     /*else*/ {
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_log); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 69, __pyx_L1_error)
@@ -3094,11 +2926,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":70
- *           else:
- *                log.log(f"Session -> [red]expired![/red]")
- *                time.sleep(1)             # <<<<<<<<<<<<<<
- *                log.log(f"Visit the website https://cryptofy.club")
- *                break
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 70, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
@@ -3123,11 +2951,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":71
- *                log.log(f"Session -> [red]expired![/red]")
- *                time.sleep(1)
- *                log.log(f"Visit the website https://cryptofy.club")             # <<<<<<<<<<<<<<
- *                break
- * 
+ 
  */
       __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_log); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 71, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
@@ -3152,11 +2976,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "cryptofy.py":72
- *                time.sleep(1)
- *                log.log(f"Visit the website https://cryptofy.club")
- *                break             # <<<<<<<<<<<<<<
- * 
- * 
+ 
  */
       goto __pyx_L4_break;
     }
@@ -3165,11 +2985,7 @@ static PyObject *__pyx_pf_8cryptofy_main(CYTHON_UNUSED PyObject *__pyx_self, PyO
   __pyx_L4_break:;
 
   /* "cryptofy.py":26
- * 
- * 
- * def main(email):             # <<<<<<<<<<<<<<
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
+ 
  */
 
   /* function exit code */
@@ -3344,33 +3160,21 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
   /* "cryptofy.py":28
- * def main(email):
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})             # <<<<<<<<<<<<<<
- *           x2 = ses.get("https://cryptofy.club/home.php").text
- *           time.sleep(60)
+ 
  */
   __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_s_https_cryptofy_club_check_php); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
   /* "cryptofy.py":36
- *                x4 = ses.get("https://cryptofy.club/account.php").text
- *                b = re.findall("<td>\w+<\/td>\n<td>(\d+\.\d+)<\/td>",x4)
- *                x5 = ses.post("https://cryptofy.club/account.php",data={"ltc":"withdraw"})             # <<<<<<<<<<<<<<
- *                log.log(f"Success withdraw LTC [green]{b[0]}[/green]")
- *                time.sleep(1.0)
+ 
  */
   __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_s_https_cryptofy_club_account_php); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
   /* "cryptofy.py":26
- * 
- * 
- * def main(email):             # <<<<<<<<<<<<<<
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
+ 
  */
   __pyx_tuple__4 = PyTuple_Pack(7, __pyx_n_s_email, __pyx_n_s_x1, __pyx_n_s_x2, __pyx_n_s_x3, __pyx_n_s_x4, __pyx_n_s_b, __pyx_n_s_x5); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__4);
@@ -3378,44 +3182,28 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__5 = (PyObject*)__Pyx_PyCode_New(1, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__4, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_cryptofy_py, __pyx_n_s_main_2, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__5)) __PYX_ERR(0, 26, __pyx_L1_error)
 
   /* "cryptofy.py":78
- * 
- * if __name__ == "__main__":
- *      os.system("clear")             # <<<<<<<<<<<<<<
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
- *      print(banner)
+ 
  */
   __pyx_tuple__6 = PyTuple_Pack(1, __pyx_n_s_clear); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
   /* "cryptofy.py":79
- * if __name__ == "__main__":
- *      os.system("clear")
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")             # <<<<<<<<<<<<<<
- *      print(banner)
- *      if len(sys.argv) > 1:
+ 
  */
   __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_xdg_open_https_www_youtube_com_c); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
   /* "cryptofy.py":82
- *      print(banner)
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:             # <<<<<<<<<<<<<<
- *                with ThreadPoolExecutor(max_workers=30) as th:
- *                     th.submit(main,sys.argv[1])
+ 
  */
   __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_s_Bot_Running); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 82, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
   /* "cryptofy.py":83
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:
- *                with ThreadPoolExecutor(max_workers=30) as th:             # <<<<<<<<<<<<<<
- *                     th.submit(main,sys.argv[1])
- * 
+ 
  */
   __pyx_tuple__9 = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
@@ -3718,9 +3506,7 @@ if (!__Pyx_RefNanny) {
   #endif
 
   /* "cryptofy.py":1
- * import re             # <<<<<<<<<<<<<<
- * import os
- * import sys
+ 
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_re, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3728,10 +3514,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "cryptofy.py":2
- * import re
- * import os             # <<<<<<<<<<<<<<
- * import sys
- * import time
+ 
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_os, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3739,11 +3522,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "cryptofy.py":3
- * import re
- * import os
- * import sys             # <<<<<<<<<<<<<<
- * import time
- * import requests
+ 
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_sys, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3751,11 +3530,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "cryptofy.py":4
- * import os
- * import sys
- * import time             # <<<<<<<<<<<<<<
- * import requests
- * from rich.console import Console
+ 
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_time, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3763,11 +3538,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "cryptofy.py":5
- * import sys
- * import time
- * import requests             # <<<<<<<<<<<<<<
- * from rich.console import Console
- * from concurrent.futures.thread import ThreadPoolExecutor
+ 
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_requests, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3775,11 +3546,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "cryptofy.py":6
- * import time
- * import requests
- * from rich.console import Console             # <<<<<<<<<<<<<<
- * from concurrent.futures.thread import ThreadPoolExecutor
- * 
+ 
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3796,11 +3563,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "cryptofy.py":7
- * import requests
- * from rich.console import Console
- * from concurrent.futures.thread import ThreadPoolExecutor             # <<<<<<<<<<<<<<
- * 
- * 
+ 
  */
   __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3817,11 +3580,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "cryptofy.py":10
- * 
- * 
- * log = Console()             # <<<<<<<<<<<<<<
- * ses = requests.Session()
- * 
+ 
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Console); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3832,11 +3591,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "cryptofy.py":11
- * 
- * log = Console()
- * ses = requests.Session()             # <<<<<<<<<<<<<<
- * 
- * purple = "\033[1;35;40m"
+ 
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_requests); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3850,56 +3605,32 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "cryptofy.py":13
- * ses = requests.Session()
- * 
- * purple = "\033[1;35;40m"             # <<<<<<<<<<<<<<
- * white = "\033[1;00m"
- * green = "\033[1;92m"
+ 
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_purple, __pyx_kp_s_1_35_40m) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
 
   /* "cryptofy.py":14
- * 
- * purple = "\033[1;35;40m"
- * white = "\033[1;00m"             # <<<<<<<<<<<<<<
- * green = "\033[1;92m"
- * red = "\033[1;32;40m"
+ 
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_white, __pyx_kp_s_1_00m) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
 
   /* "cryptofy.py":15
- * purple = "\033[1;35;40m"
- * white = "\033[1;00m"
- * green = "\033[1;92m"             # <<<<<<<<<<<<<<
- * red = "\033[1;32;40m"
- * 
+ 
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_green_2, __pyx_kp_s_1_92m) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
 
   /* "cryptofy.py":16
- * white = "\033[1;00m"
- * green = "\033[1;92m"
- * red = "\033[1;32;40m"             # <<<<<<<<<<<<<<
- * 
- * banner = f"""
+ 
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_red, __pyx_kp_s_1_32_40m) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
 
   /* "cryptofy.py":18
- * red = "\033[1;32;40m"
- * 
- * banner = f"""             # <<<<<<<<<<<<<<
- * 
- * 
+ 
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_banner, __pyx_kp_u_1_97m_1_44m_CRYPTOFY_NOXY_SEC_0) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
 
   /* "cryptofy.py":26
- * 
- * 
- * def main(email):             # <<<<<<<<<<<<<<
- *      while True:
- *           x1 = ses.post("https://cryptofy.club/check.php",data={"email":email,"r":"","btn-start":""})
+ 
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8cryptofy_1main, 0, __pyx_n_s_main_2, NULL, __pyx_n_s_cryptofy, __pyx_d, ((PyObject *)__pyx_codeobj__5)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3907,11 +3638,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "cryptofy.py":77
- * 
- * 
- * if __name__ == "__main__":             # <<<<<<<<<<<<<<
- *      os.system("clear")
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
+ 
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3920,11 +3647,7 @@ if (!__Pyx_RefNanny) {
   if (__pyx_t_3) {
 
     /* "cryptofy.py":78
- * 
- * if __name__ == "__main__":
- *      os.system("clear")             # <<<<<<<<<<<<<<
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
- *      print(banner)
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -3937,11 +3660,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
     /* "cryptofy.py":79
- * if __name__ == "__main__":
- *      os.system("clear")
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")             # <<<<<<<<<<<<<<
- *      print(banner)
- *      if len(sys.argv) > 1:
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -3954,11 +3673,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
     /* "cryptofy.py":80
- *      os.system("clear")
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
- *      print(banner)             # <<<<<<<<<<<<<<
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_banner); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 80, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -3966,11 +3681,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
     /* "cryptofy.py":81
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
- *      print(banner)
- *      if len(sys.argv) > 1:             # <<<<<<<<<<<<<<
- *           with log.status("Bot Running...") as status:
- *                with ThreadPoolExecutor(max_workers=30) as th:
+ 
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_sys); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -3983,11 +3694,7 @@ if (!__Pyx_RefNanny) {
     if (__pyx_t_3) {
 
       /* "cryptofy.py":82
- *      print(banner)
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:             # <<<<<<<<<<<<<<
- *                with ThreadPoolExecutor(max_workers=30) as th:
- *                     th.submit(main,sys.argv[1])
+ 
  */
       /*with:*/ {
         __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_log); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 82, __pyx_L1_error)
@@ -4021,11 +3728,7 @@ if (!__Pyx_RefNanny) {
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
               /* "cryptofy.py":83
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:
- *                with ThreadPoolExecutor(max_workers=30) as th:             # <<<<<<<<<<<<<<
- *                     th.submit(main,sys.argv[1])
- * 
+ 
  */
               /*with:*/ {
                 __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_ThreadPoolExecutor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 83, __pyx_L8_error)
@@ -4060,11 +3763,7 @@ if (!__Pyx_RefNanny) {
                       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
                       /* "cryptofy.py":84
- *           with log.status("Bot Running...") as status:
- *                with ThreadPoolExecutor(max_workers=30) as th:
- *                     th.submit(main,sys.argv[1])             # <<<<<<<<<<<<<<
- * 
- *      else:
+ 
  */
                       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_th); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L18_error)
                       __Pyx_GOTREF(__pyx_t_1);
@@ -4096,11 +3795,7 @@ if (!__Pyx_RefNanny) {
                       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
                       /* "cryptofy.py":83
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:
- *                with ThreadPoolExecutor(max_workers=30) as th:             # <<<<<<<<<<<<<<
- *                     th.submit(main,sys.argv[1])
- * 
+ 
  */
                     }
                     __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -4177,11 +3872,7 @@ if (!__Pyx_RefNanny) {
               }
 
               /* "cryptofy.py":82
- *      print(banner)
- *      if len(sys.argv) > 1:
- *           with log.status("Bot Running...") as status:             # <<<<<<<<<<<<<<
- *                with ThreadPoolExecutor(max_workers=30) as th:
- *                     th.submit(main,sys.argv[1])
+ 
  */
             }
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -4258,19 +3949,13 @@ if (!__Pyx_RefNanny) {
       }
 
       /* "cryptofy.py":81
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
- *      print(banner)
- *      if len(sys.argv) > 1:             # <<<<<<<<<<<<<<
- *           with log.status("Bot Running...") as status:
- *                with ThreadPoolExecutor(max_workers=30) as th:
+ 
  */
       goto __pyx_L3;
     }
 
     /* "cryptofy.py":87
- * 
- *      else:
- *           print(f"Please enter your faucet email!")             # <<<<<<<<<<<<<<
+ 
  */
     /*else*/ {
       if (__Pyx_PrintOne(0, __pyx_kp_u_Please_enter_your_faucet_email) < 0) __PYX_ERR(0, 87, __pyx_L1_error)
@@ -4278,18 +3963,12 @@ if (!__Pyx_RefNanny) {
     __pyx_L3:;
 
     /* "cryptofy.py":77
- * 
- * 
- * if __name__ == "__main__":             # <<<<<<<<<<<<<<
- *      os.system("clear")
- *      os.system("xdg-open https://www.youtube.com/channel/UCF9Fe9b91xUp-O9Ag5NjHeA")
+ 
  */
   }
 
   /* "cryptofy.py":1
- * import re             # <<<<<<<<<<<<<<
- * import os
- * import sys
+ 
  */
   __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
